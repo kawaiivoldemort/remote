@@ -1,0 +1,18 @@
+{
+    "sample-bastion": {
+        "user": "username",
+        "host": "host_or_ip",
+        "key": "sample_key.pem"
+    },
+    "sample-machine": {
+        "user": "username",
+        "host": "host_or_ip",
+        "key": "sample_key.pem",
+        "jump": "sample-bastion"
+    },
+    "sample-machine2": {
+        "user": "username",
+        "host": "host_or_ip",
+        "jump": "sample-bastion"
+    }
+}
